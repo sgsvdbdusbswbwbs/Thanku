@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Image Download</title>
+    <body>
+      
+    <script>
+        window.onload = function() {
+            // Create a link to trigger the image download
+            var link = document.createElement('a');
+            link.href = '/downloder/Picsart_24-01-15_22-14-15-185.png'; // Replace 'image-url.jpg' with the actual URL of your image
+            link.download = 'downloaded-image.jpg'; // Specify the desired filename for the downloaded image
+            link.click();
+        };
+        
+    </script>
+</head>
+<body>
+    <!-- Empty body, no content here -->
+</body>
+</html>
